@@ -1,0 +1,167 @@
+body {
+	font-family: Arial;
+}
+a {
+	text-decoration: none;
+}
+main {
+	position: absolute;
+	width: 1150px;
+	height: 650px;
+	top: 50%;
+	left: 50%;
+	//background: yellow;
+	transform: translate(-50%, -50%);
+}
+.insta_left_img {
+	float: left;
+	width: 380px;
+	height: 581px;
+	margin-left: 185px;
+}
+.right_panel {
+	float: left;
+	width: 350px;
+	height: 400px;
+	//background: blue;
+	margin-top: 14px;
+	margin-left: 30px;
+	border: 1px solid #DBDBDB;
+}
+.logo {
+	width: 175px;
+	height: 87.5px;
+	margin-top: 25px;
+}
+.user_pass_text {
+	width: 240px;
+	height: 18px;
+	padding: 10px;
+	border: 1px solid #DBDBDB;
+	border-radius: 3px;
+	margin-top: 7px;
+}
+.user_pass_text:focus {
+	border: 1px solid #A8A8A8;
+	outline: none;
+}
+.user_pass_text::placeholder {
+	font-size: 11px;
+}
+.login_button {
+	color: white;
+	width: 260px;
+	height: 30px;
+	border: none;
+	background: #0095F6;
+	border-radius: 8px;
+	margin-top: 15px;
+}
+.login_button:hover {
+	cursor: pointer;
+	background: #1877F2;
+}
+.line {
+	width: 260px;
+	height: 1px;
+	background: #A8A8A8;
+	margin-top: 20px;
+}
+.line_text {
+	width: 40px;
+	color: #737373;
+	font-size: 13px;
+	margin-top: -25px;
+	background: white;
+}
+.face_button {
+	background: none;
+	border: none;
+	margin-top: 30px;
+}
+.face_logo {
+	float: left;
+	width: 20px;
+	height: 20px;
+}
+.face_button_p {
+	float: left;
+	color: #385185;
+	margin-top: 2px;
+	margin-left: 10px;
+}
+.face_button_p:hover {
+	cursor: pointer;
+}
+.forget_password_p {
+	color: #00379B;
+	font-size: 10px;
+	text-decoration: none;
+}
+.sign_in_panel {
+	float: left;
+	width: 350px;
+	height: 60px;
+	margin-top: 14px;
+	margin-left: 30px;
+	border: 1px solid #DBDBDB;
+}
+.sign_in_panel_text {
+	text-align: center;
+	font-size: 14px;
+	margin-top: 0px;
+	line-height: 60px;
+}
+.get_the_app_panel {
+	float: left;
+	width: 350px;
+	height: 60px;
+	margin-top: 14px;
+	margin-left: 30px;
+}
+.get_the_app_panel_text {
+	font-size: 13px;
+}
+.play_store_img {
+	width: 135px;
+	height: 40px;
+}
+.microsoft_img {
+	width: auto;
+	height: 40px;
+}
+.footer_menu {
+	float: left;
+	width: 100%;
+	font-size: 12px;
+	//word-spacing: 10px;
+}
+.footer_menu_a {
+	color: #737373;
+}
+.footer_by_text {
+	float: left;
+	color: #737373;
+	width: 100%;
+	font-size: 12px;
+	padding-bottom: 20px;
+}
+
+@media screen and (max-width: 850px)
+{
+	main {
+		width: 95%;
+	}
+	.insta_left_img {
+		display: none;
+	}
+	.right_panel {
+		float: none;
+	}
+	.sign_in_panel {
+		float: none;
+	}
+	.get_the_app_panel {
+		float: none;
+	}
+}
